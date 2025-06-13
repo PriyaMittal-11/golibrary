@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  labels:
+    app: restapi
+  name: restapi
+  namespace: restapi
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: restapi
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: restapi
+    spec:
+      containers:
+      - image: priya989/library:0.1.0
+        name: library
+        resources: {}
+status: {}

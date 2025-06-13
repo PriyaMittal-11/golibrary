@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  creationTimestamp: "2025-06-12T16:28:02Z"
+  labels:
+    kubernetes.io/metadata.name: database
+  name: database
+  resourceVersion: "39199"
+  uid: a8d7f6fa-abd9-4c72-9a6c-ecbf02045646
+spec:
+  finalizers:
+  - kubernetes
+status:
+  phase: Active
