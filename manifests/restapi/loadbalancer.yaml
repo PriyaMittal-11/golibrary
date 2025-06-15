@@ -1,0 +1,33 @@
+apiVersion: v1
+kind: Service
+metadata:
+  creationTimestamp: "2025-06-14T20:38:08Z"
+  labels:
+    app: restapi
+  name: restapi-loadbalancer
+  namespace: restapi
+  resourceVersion: "77805"
+  uid: 4e1a3197-5a14-4e93-80b8-008601368d4c
+spec:
+  allocateLoadBalancerNodePorts: true
+  clusterIP: 10.97.133.16
+  clusterIPs:
+  - 10.97.133.16
+  externalTrafficPolicy: Cluster
+  internalTrafficPolicy: Cluster
+  ipFamilies:
+  - IPv4
+  ipFamilyPolicy: SingleStack
+  ports:
+  - nodePort: 32032
+    port: 9090
+    protocol: TCP
+    targetPort: 9090
+  selector:
+    app: restapi
+  sessionAffinity: None
+  type: LoadBalancer
+status:
+  loadBalancer: {}
+
+##minikube dashboard
