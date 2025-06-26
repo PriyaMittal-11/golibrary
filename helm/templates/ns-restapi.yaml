@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  creationTimestamp: "2025-06-12T17:33:57Z"
+  labels:
+    kubernetes.io/metadata.name: restapi
+  name: restapi
+  resourceVersion: "41781"
+  uid: a4d94109-9159-4139-8acc-0315a5e73e74
+spec:
+  finalizers:
+  - kubernetes
+status:
+  phase: Active

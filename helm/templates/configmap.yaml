@@ -1,0 +1,11 @@
+apiVersion: v1
+data:
+  dbname: library
+  host: mysql.database:3306
+kind: ConfigMap
+metadata:
+  creationTimestamp: "2025-06-13T11:01:08Z"
+  name: restapi-cm
+  namespace: restapi
+  resourceVersion: "54462"
+  uid: 4220c9bc-a2a5-4a71-9d35-2a6fd9fbb833
