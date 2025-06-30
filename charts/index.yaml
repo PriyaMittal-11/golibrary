@@ -3,12 +3,12 @@ entries:
   library:
   - apiVersion: v2
     appVersion: 0.0.1
-    created: "2025-06-30T20:19:02.807382+05:30"
+    created: "2025-06-30T21:57:47.923977+05:30"
     description: A Helm chart to deploy priya989/library
-    digest: 088149dea0b0a1e61a52622eea7f42ff4c95d43444bfb6157602e7011844dea5
+    digest: 3abf5ea38b7c53f54ac25f1cd150ca147889872b281b76ef71bb8d91b0baf5a4
     name: library
     type: application
     urls:
-    - https://priyamittal-11.github.io/golibrary/charts/library-0.1.0.tgz
+    - library-0.1.0.tgz
     version: 0.1.0
-generated: "2025-06-30T20:19:02.806305+05:30"
+generated: "2025-06-30T21:57:47.922825+05:30"
